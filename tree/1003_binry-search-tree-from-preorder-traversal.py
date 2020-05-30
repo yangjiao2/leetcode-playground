@@ -6,6 +6,8 @@
 # Input: [8,5,1,7,10,12]
 # Output: [8, 5, 10, 1, 7, null, 12]
 
+用 stack 保存所以processed 过的点
+
 class Solution:
     # iterative
     def bstFromPreorder(self, preorder: List[int]) -> TreeNode:
